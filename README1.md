@@ -1,3 +1,0 @@
-# Proyecto Worktree
-
-Rama main.
