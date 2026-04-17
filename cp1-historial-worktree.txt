@@ -1,0 +1,6 @@
+$ git log --oneline --all
+1234567 (HEAD -> main) Initial commit
+89abcde (feature-a) Add feature A
+$ git branch
+  feature-a
+* main

@@ -1,0 +1,14 @@
+Antes:
+$ git worktree list
+/home/user/directorio/principal       [main]
+/home/user/directorio/wt-feature-a    [feature-a]
+/home/user/directorio/wt-feature-b    [feature-b]
+
+$ git worktree remove ../wt-feature-a
+
+Despues:
+$ git worktree list
+/home/user/directorio/principal       [main]
+/home/user/directorio/wt-feature-b    [feature-b]
+
+El comando remove borra el directorio y elimina el registro, mientras que prune sirve para limpiar el registro si el directorio se borró manualmente.

@@ -1,0 +1,6 @@
+$ git worktree list
+/home/user/directorio/principal       [main]
+/home/user/directorio/wt-feature-a    [feature-a]
+
+El directorio principal tiene el branch main.
+El nuevo worktree es wt-feature-a y tiene check-out de la rama feature-a.

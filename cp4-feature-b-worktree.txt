@@ -1,0 +1,13 @@
+$ git worktree add -b feature-b ../wt-feature-b main
+
+$ git branch
+  feature-a
+* feature-b
+  main
+
+$ git worktree list
+/home/user/directorio/principal       [main]
+/home/user/directorio/wt-feature-a    [feature-a]
+/home/user/directorio/wt-feature-b    [feature-b]
+
+La diferencia entre usar git branch y git worktree add -b es que con add -b se crea directamente el worktree y la rama, mientras que con git branch solo se crea la referencia a la rama.

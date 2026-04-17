@@ -1,0 +1,5 @@
+$ git worktree list
+/home/user/directorio/principal       [main]
+/home/user/directorio/wt-feature-a    [feature-a]
+
+Hay trabajo paralelo en main y en feature-a usando distintos directorios.
